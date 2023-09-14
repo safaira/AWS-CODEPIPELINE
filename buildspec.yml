@@ -16,7 +16,7 @@ phases:
 
   artifacts:
     files: 
-     - aws-project-artifact/*
+     - var/www/html/index.html
     
       
   
