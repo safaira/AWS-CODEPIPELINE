@@ -9,14 +9,14 @@ phases:
   build:
     commands:
       - echo copy file into a container
-      - cp index.html var/www/html/
+      - cp index.html /var/www/html/
   post_build:
     commands:
       - echo configuring nginx
 
 artifacts:
   files: 
-   - aws-project-artifact/*
+   - /var/www/html/index.html
     
       
   
