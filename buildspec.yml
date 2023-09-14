@@ -14,9 +14,9 @@ phases:
     commands:
       - echo configuring nginx
 
-  artifacts:
-    files: 
-     - aws-project-artifact/*
+artifacts:
+  files: 
+   - aws-project-artifact/*
     
       
   
