@@ -1,0 +1,22 @@
+version: 0.2
+        
+phases:
+  install:
+    commands:
+      - echo Installing nginx
+      - sudo apt-get update 
+      - sudo apt-get install nginx -y
+  build:
+    commands:
+      - echo copy file into a container
+      - cp index.html var/www/html/index.html
+  post_build:
+    commands:
+      - echo configuring nginx
+
+  artifacts:
+    files: 
+     - aws-project-artifact/*
+    
+      
+  
