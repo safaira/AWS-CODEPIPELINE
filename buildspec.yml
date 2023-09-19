@@ -16,7 +16,7 @@ phases:
 
 artifacts:
   files: 
-   - `**/*`
+   - '**/*'
     
       
   
